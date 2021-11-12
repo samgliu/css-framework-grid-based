@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url('../styles/assets/Norse-Bold.otf');
+}
+h2 {
+    margin: 2em 0 2em 0;
+}
+:root {
+    --TOP-color: #cc9543;
+}
+.TOP-color {
+    color: var(--TOP-color);
+}
+.logo-text-TOP {
+    color: var(--TOP-color);
+    font-family: Norse-Bold;
+    font-size: 2em;
+}
+.web-sub-list {
+    grid-gap: 2em;
+}
+.web-sub-list > div {
+    background: white;
+}
+.web-sub-list > div {
+    padding: 3em;
+}
+footer {
+    padding: 2em;
+}
+
+@media (min-width: 1200px) {
+    .web-sub-list > div > img {
+        width: 160px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .web-sub-list > div > img {
+        width: 160px;
+    }
+    .story {
+        margin: 0 8em 0 8em;
+    }
+}
+
+@media (max-width: 768px) {
+    .web-sub-list > div > img {
+        width: 80px;
+    }
+}

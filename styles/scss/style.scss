@@ -1,0 +1,109 @@
+@import url('reset.css');
+@import 'grid';
+/* color style */
+$light-black: rgba(74, 74, 74, 0.7);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f8f9fa;
+}
+h1 {
+    font-size: 2em;
+}
+
+.p-lg {
+    line-height: calc(1.125rem + 0.35rem);
+    color: rgba(74, 74, 74, 0.7);
+    font-size: 1.125rem;
+    letter-spacing: 0.2px;
+}
+.p-md {
+    line-height: calc(1rem + 0.25rem);
+    color: rgba(74, 74, 74, 0.7);
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+}
+.p-sm {
+    line-height: calc(0.9rem + 0.15rem);
+    color: rgba(74, 74, 74, 0.7);
+    font-size: 0.9rem;
+    letter-spacing: 0.2px;
+}
+/*  header   */
+.nav-menu > * {
+    color: $light-black;
+    font-weight: 700;
+    font-size: 1em;
+    white-space: nowrap;
+}
+.bg-white {
+    background-color: white;
+}
+.clickable {
+    cursor: pointer;
+}
+.clickable:hover {
+    color: black;
+}
+
+.logo-text {
+    flex: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    font-size: 1.5em;
+    display: inline-block;
+    padding-left: 0.25em;
+    white-space: nowrap;
+}
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* social-icon  */
+.social-icon-container {
+    width: 100%;
+}
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
+/*  button  */
+/*  blue theme  */
+.button-blue {
+    padding: 1em 2em 1em 2em;
+    color: white;
+    background: #6abfc3;
+    border: none;
+    border-radius: 0.2em;
+    box-shadow: inset 0 0.05em 0.25em rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+/*  brown theme  */
+.button-brown {
+    padding: 1em 2em 1em 2em;
+    color: white;
+    background: #cc9543;
+    border: none;
+    border-radius: 0.2em;
+    box-shadow: inset 0 0.05em 0.25em rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
